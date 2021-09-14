@@ -1,0 +1,153 @@
+body{
+	background-image: url("assets/Background/kirby2.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+    overflow-y: scroll;
+}
+
+.btn{
+	background : rgb(254,222,49);
+	border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    position: absolute;
+    right: 0.5%;
+    font-size: 60%
+}
+
+.btnAmis{
+    background : rgb(254,222,49);
+	border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    position: absolute;
+    right: 8%;
+    font-size: 60%;
+}
+
+.btnProfil{
+    background : rgb(254,222,49);
+	border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    position: absolute;
+    right: 15.5%;
+    font-size: 60%;
+}
+
+.btnJeux{
+    background : rgb(254,222,49);
+	border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    position: absolute;
+    right: 0.5%;
+    font-size: 60%;
+    top: 4%;
+}
+
+.btne{
+	background : rgb(254,222,49);
+	border : 2px outset rgb(254,222,49);
+    bottom: 0.5%;
+	width:8%;
+	height:3.3%;
+    position: absolute;
+    right: 0.5%;
+}
+
+.txtm{
+    position: absolute;
+    left: 73.5%;
+    top: 96.2%;
+    width: 17.5%;
+    height: 2.75%;
+}
+
+.jeux{
+    position: absolute;
+    left: 10%;
+}
+
+.chat{
+    background-color: white;
+    position: absolute;
+    right: 1%;
+    top: 45%;
+    height: 50%;
+    width: 25%;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.chat p{
+    margin-left: 1%;
+    color:darkblue;
+    font-size: 120%;
+}
+
+canvas{
+    position: absolute;
+    left: auto;
+    top: auto;
+}
+
+.btnRejouer{
+    position: absolute;
+    top: 1.3%;
+    background : rgb(254,222,49);
+	border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    right: 43%;
+    font-size: 60%
+}
+
+
+@media screen and (max-width: 1024px)
+{
+    body{
+        background-repeat:repeat-y;
+    }
+    
+    canvas{
+        position: absolute;
+        left: auto;
+        top: auto;
+    }
+    
+    .chat{
+        position: absolute;
+        top: 78%;
+        height: 15%;
+        width: 100%;
+        left: 1em;
+        z-index: 1000;
+    }
+    
+    .btne{
+        position: absolute;
+        display: block;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    .txtm{
+        position: absolute;
+        display: block;
+        width: 99%;
+        z-index: 1000;
+        top: 76em;
+        left: 0em;
+    }
+    
+    .btn{
+       display: none;
+    }
+    
+    .chat p{
+        color:aqua;
+        font-size: 100%;
+    }
+    
+}

@@ -1,0 +1,51 @@
+body{
+	background-image: url("assets/Background/kirby.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.info label{
+	position : absolute;
+	left : 20px;
+	font-weight:bold;
+	color : rgb(254,222,49);	
+}
+
+.info input{
+margin-left : 15em
+}
+
+.btn{
+	background : rgb(254,222,49);
+	border : 2px outset rgb(254,222,49);
+	margin-right:1em;
+	width:7em;
+	height:2em
+	
+}
+
+#button{
+	margin-left : 10em
+}
+
+h2{	
+color: rgb(254,222,49);
+text-align: center;
+}
+
+form {
+	background-image: url("assets/Background/kirby.png");
+    background-repeat: no-repeat;
+	border : 2px outset rgb(254,222,49);
+	width:30%;
+	padding:1%;
+	position:absolute;
+	left : 25%;
+	top: 40%;
+}
+
+.Erreur{
+    color: rgb(254,222,49);
+    text-align: center;
+    font-weight: bold;
+}

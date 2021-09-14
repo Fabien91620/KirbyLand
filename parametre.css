@@ -1,0 +1,104 @@
+form {
+	width : 24em;
+	margin : auto;
+	position : relative;
+	
+}
+p.titre{
+	background:#F3F4F8;
+	color : #345071;
+	padding : 0.2em 0.3em;
+	font-size:1.2em;
+	border : 2px outset #FAFAFA;
+	position:relative;
+	margin-bottom:0.25em;
+	width:10em;
+	margin-left:5em;
+	margin-top:0.5em;
+}
+fieldset {
+	border : none;
+	margin-bottom :1em;
+	width:24em;
+	padding-top : 1.5em;
+}
+
+}
+.all label{
+	
+	left :10px;
+	font-size :30%;
+	padding-top : 1em;
+	margin-left: 20em;
+    
+}
+.all input{
+	margin-left: 0.2em;
+	line-height : 1em;
+	margin-bottom : 1em;
+	margin-left: 2em;
+}
+select {
+	margin-left : 3em;
+	margin-bottom : 5px;
+}
+
+
+fieldset#message{
+	background :#F3F4F8;
+	border : outset #F3F4F8;
+	margin-bottom : 5
+
+	
+}
+
+/*Zone de texte du message */
+textarea {
+	font : 0.8em "Terbuchet MS", verdana, sans-serif;
+	width :29em;
+	padding : 0.2em;
+	resize: none;
+
+}
+input{
+	background : #fd9ec4;
+	font :2em  "Terbuchet MS", verdana, sans-serif;
+	color:#345071;
+}
+p#buttons{
+	text-align:center;
+}
+
+.all{
+
+ background-color:  ;
+ border: thick black solid; 
+ height: 60%;
+ width: 120%; 
+ overflow: auto; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

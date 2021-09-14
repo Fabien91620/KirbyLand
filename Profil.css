@@ -1,0 +1,147 @@
+body{
+    background-color: grey;
+}
+.pseudo{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    margin-top: 0%;
+    background-image: url(assets/Background/profils.jpg);
+    width: 100%;
+    height: 30%;
+    
+    
+}
+
+.pseudo p{
+    text-align: center;
+    margin-top: 0%;
+    color: yellow;
+    font-size: 220%;
+}
+
+.image img{
+    position: absolute;
+    left: 40%;
+    border-radius: 100%;
+    width: 15%;
+    margin-left: 3%;
+    z-index: 1000;
+    top: 15%;
+    
+}
+
+.amis label{
+    font-size: 150%;
+    margin-left: 33%;
+}
+
+.amis p{
+    text-align: center;
+}
+
+.amis{
+    position: absolute;
+    background-color: white;
+    top: 30%;
+    width: 20%;
+    left: 0;
+    height: 70%;
+}
+
+.score{
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    width: 20%;
+    height: 70%;
+    
+}
+
+.score p{
+    margin-left:17%;
+    margin-top: 10%;
+    word-spacing: 3000%;
+    margin-bottom: 0%;
+}
+
+.pPseudo{
+    position: absolute;
+    font-size: 120%;
+    right: 13%;
+    margin-top: 0%;
+    top: 30%;
+    z-index: 1000;
+}
+
+.pScore{
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    margin-top: 0%;
+    font-size: 120%;
+    z-index: 1000;
+}
+
+.btnJouer{
+    position: absolute;
+    top: 0.3%;
+    left: 76%;
+    background : rgb(254,222,49);
+    border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    font-size: 60%;
+}
+
+.btnParametre{
+    position: absolute;
+    top: 0.3%;
+    left: 84%;
+    position: absolute;
+    background : rgb(254,222,49);
+    border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    font-size: 60%;
+}
+
+.btnAjouter{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    background : rgb(254,222,49);
+    border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    font-size: 60%;
+}
+
+.amis p{
+    font-weight: bold;
+}
+
+.btnRetour{
+    position: absolute;
+    top: 0.3%;
+    left: 92%;
+    position: absolute;
+    background : rgb(254,222,49);
+    border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    font-size: 60%;
+}
+
+.btnAmis{
+    position: absolute;
+    top: 0.3%;
+    left: 92%;
+    position: absolute;
+    background : rgb(254,222,49);
+    border : 2px outset rgb(254,222,49);
+	width:7%;
+	height:2.5%;
+    font-size: 60%;
+}

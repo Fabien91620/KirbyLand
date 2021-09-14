@@ -1,0 +1,100 @@
+body{
+    background-image: url("assets/Background/kirby3.png");
+	background-repeat:no-repeat;
+	background-size:100%;
+    color: white;
+}
+.rechercheAmis{
+    position: absolute;
+    text-align: center;
+    margin-top: 0%;
+    left: 32%;
+    width: 30%;
+    
+}
+
+.btnrechercheAmis{
+    position: absolute;
+    right: 30%;
+    margin-top: 0%;
+}
+
+.deco{
+    position: absolute;
+    right: 1%;
+    margin-top: 0%;
+}
+
+.ajouter{
+    background-color:gray;
+}
+
+.jeux{
+    position: absolute;
+    left: 1%;
+    margin-top: 0%;
+}
+
+.titreJoueur h2{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
+
+.titreJoueur hr{
+    align-items: center;
+    margin-left: 4%;
+    width: 90%;
+    position: absolute;
+    top: 13%;
+    color: white;
+}
+
+.nomProfil{
+    position: absolute;
+    top: 36.4%;
+    left: 38.25%;
+    background-color: dimgrey;
+    width: 20%;
+    height: 7%;
+    color: white;
+}
+
+.nomProfil p{
+    margin-left: 5%;
+    color: white;
+}
+
+.afficheAmis(){
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+}
+
+.carreAmis{
+    margin-top: 10%;
+    float: left;
+    border-style: solid;
+    margin-left: 5%;
+    text-align: center;
+    color: white;
+}
+
+.carreAmis img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0%;
+}
+
+.carreAmis hr{
+    width: 100%;
+    border: solid 1.5px;
+    margin-top: 0%;
+    
+}
+
+.carreAmis input{
+    margin-right: 0%;
+    margin-left: 70%;
+    
+}
